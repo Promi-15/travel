@@ -521,6 +521,15 @@ line-height: 24px;
     background-color: rgb(243, 228, 210);
     transition: all 5s ;
 }
+ .icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.icon h3{
+    font-size: 12px;
+}
 
 @media screen and (max-width:600px) {
     /* header{
@@ -670,10 +679,10 @@ padding: 10px;
 text-align: center;
 }
 .book p,.book1 p{
-    width: 75%;
-    padding-left: 30px;
+    width: 85%;
+    /* padding-left: 30px; */
     margin-left: 30px;
-    border: 1px solid;
+   text-align: center;
     justify-content: center;
 }
 
