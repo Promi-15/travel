@@ -715,8 +715,12 @@ text-align: center;
     /* margin: auto; */
     margin-left: 10px;
 }
-.news input,hr{
+.news input{
 width: 80%;
+}
+.news hr{
+    width: 83%;
+    margin-left: 30px;
 }
 .bbtn{
     width: 85%;
