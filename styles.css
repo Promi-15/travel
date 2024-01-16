@@ -87,7 +87,6 @@ padding-bottom: 20px;
     margin: 50px auto ;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
-    padding: 10px;
     width: 774px;
     flex-shrink: 0;
     display: flex;
@@ -100,18 +99,17 @@ padding-bottom: 20px;
     padding: 8px;
     border: none;
 }
-.input ::placeholder{
-    padding-left: 15px;
-}
+
 .btn{
     border-radius: 8px;
 background: #FF5400;
-width: 164px;
+width: 169px;
 color: #FFF;
 text-align: center;
 font-size: 1.1rem;
 font-weight: 300;
-margin-top: 15px;
+
+align-items: center;
 }
 .btn i{
     padding-right: 8px;
@@ -190,8 +188,8 @@ line-height: 26px;
 }
 
 .hotel,.map{
-    width: 670px;
-    margin: 20px ;
+    width: 630px;
+    /* margin: 20px ; */
     padding: 25px;
 }
 .handpick{
@@ -211,9 +209,9 @@ border: 1px solid rgba(251, 181, 99, 0.20);
 background: rgba(251, 181, 99, 0.05);
 }
 .price{
-    
+    margin-top: 30px;
     border: 1px solid;
-    width: 670px;
+    width: 630px;
     margin-left: 380px ;
     padding: 25px;
     border-radius: 16px;
@@ -289,6 +287,7 @@ padding: 30px;
     background-size: cover;
     padding-top: 120px;
     padding-left: 20px;
+    width: 100%;
     
 }
 .book h3,.book1 h3{
@@ -394,10 +393,7 @@ font-weight: 600;
 margin-bottom: 20px;
 margin-left: 15px;
 }
-/* .offer img{
-       padding-top: 120px;
 
-} */
 .offer{
     width: 680px;
     height: 400px;
@@ -514,6 +510,171 @@ line-height: 24px;
 
 @media screen and (max-width:600px) {
     
- 
+ .Explore,.text{
+    text-align: center;
+    width: 100%;
+    height: 700px;
+    margin: 0;
+ }
+ .text p{
+    width: 100%;
+    text-align: center;
+ }
+
+  .input{
+    width: 70%;
+    height: 30%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input input{
+   
+    text-align: center;
+  }
+  nav,.choose{
+    margin: 0;
+  }
+  .title,.colorful{
+    font-size: 18px;
+    width: 100px;
+  }
+
+  .popular-tour,.describtion,.plan >li{
+  flex-direction: column;
+  gap: 24px;
+    margin: 0;
+    width: 100%;
+}
+.hill>img{
+    width: 100%;
+}
+.text1 h1{
+    text-align: center;
+    margin: auto;
+    font-size: 1.5rem;
+    width: 100%;
+}
+.destination{
+    margin: 0;
+}
+.first,.second,.third{
+    flex-direction: column;
+   gap: 20px;
+   padding-top: 20px;
+}
+.first img,.second img,.third img{
+    width: 100%;
+}
+.handpick{
+    flex-direction: column;
+    gap: 20px;
+}
+.hotel,.map,.price{
+    width: 90%;
+}
+.price{
+    margin-top: 20px;
+   margin-left: 0;
+}
+.deals{
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+.deals h1{
+    width: 100%;
+    
+}
+.deals p{
+    width: 80%;
+}
+.background{
+    width: 100%;
+    border-radius: 5px;
+   
+}
+.button{
+    display: none;
+}
+.book,.book1{
+    width: 350px;
+    /* height: 339px; */
+    border-radius: 16px;
+border: 2px solid #FFF;
+background: rgba(255, 255, 255, 0.8);
+/* align-items: center; */
+padding: 10px;
+/* margin: auto; */
+ margin-left: 0px; 
+
+}
+.packages{
+    margin: 0;
+    flex-direction: column;
+    gap: 20px;
+    /* width: 100%; */
+}
+.text2>button{
+    margin-top: 20px;
+}
+.text2{
+    width: 100%;
+}
+.sky>img{
+    width: 100%;
+}
+.letter{
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    margin: 20px 0;
+}
+.news{
+    width: 100%;
+    /* margin: auto; */
+    margin-left: 10px;
+}
+.offer img{
+    /* width: 470px; */
+    /* margin-left: 55px; */
+}
+.tag{
+    /* width: 315px;
+    height: 120px; */
+    /* width: 50%; */
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    margin-right: 120px;
+    margin-top: 225px; 
+    /* margin-bottom: 10px; */
+    /* margin-left: 355px;
+    padding-top: 10px; */
+}
+.service{
+    flex-direction: column;
+    margin: 0;
+    width: 100%;
+    gap: 20px;
+}
+.plans{
+    width: 100%;
+    
+}
+.customer >img{
+  width: 100%;
   
+}
+footer{
+    width: 100%;
+    margin: 0;
+}
+footer p{
+    width: 100%;
+}
+footer hr{
+    width: 30px;
+}
 }
