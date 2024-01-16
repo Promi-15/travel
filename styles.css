@@ -1,6 +1,20 @@
 *{
     font-family: 'Mulish', sans-serif;
 }
+.nav-list input{
+    display:none;
+}
+.checkbtn{
+    display: none;
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+}
+#check{
+    display: none;
+}
 nav{
    margin-left: 40px;
    margin-right: 40px;
@@ -509,16 +523,53 @@ line-height: 24px;
 }
 
 @media screen and (max-width:600px) {
+    /* header{
+        width: 100%;
+        border: solid 10px;
+    } */
+   
+    nav{
+        width: 100%;
+        height: auto;
+   
+    }
+    .nav-title h1{
+        width: 150px;
     
+    }
+    .checkbtn{
+        display: block !important;
+    }
+    #check:checked ~ul{
+        left: 0;
+    }
+    .nav-list ul li{
+        line-height: 30px;
+        clear: both;
+        margin-top: 15px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .nav-list ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        top: 54px;
+        left:-200%;
+        transition: all .1s;
+    }
  .Explore,.text{
     text-align: center;
     width: 100%;
     height: 700px;
     margin: 0;
+    
  }
  .text p{
-    width: 100%;
+    width: 80%;
     text-align: center;
+  
  }
 
   .input{
@@ -533,6 +584,7 @@ line-height: 24px;
   }
   nav,.choose{
     margin: 0;
+   
   }
   .title,.colorful{
     font-size: 18px;
@@ -544,15 +596,19 @@ line-height: 24px;
   gap: 24px;
     margin: 0;
     width: 100%;
+    
 }
 .hill>img{
     width: 100%;
+
 }
+
 .text1 h1{
     text-align: center;
     margin: auto;
     font-size: 1.5rem;
-    width: 100%;
+    width: 80%;
+   
 }
 .destination{
     margin: 0;
@@ -561,16 +617,18 @@ line-height: 24px;
     flex-direction: column;
    gap: 20px;
    padding-top: 20px;
+
 }
 .first img,.second img,.third img{
     width: 100%;
+   
 }
 .handpick{
     flex-direction: column;
     gap: 20px;
 }
 .hotel,.map,.price{
-    width: 90%;
+    width: 85%;
 }
 .price{
     margin-top: 20px;
@@ -580,18 +638,21 @@ line-height: 24px;
     margin: 0;
     width: 100%;
     text-align: center;
+
 }
+
 .deals h1{
     width: 100%;
     
 }
 .deals p{
     width: 80%;
+  
 }
 .background{
-    width: 100%;
+    width: 95.6%;
     border-radius: 5px;
-   
+  
 }
 .button{
     display: none;
@@ -630,24 +691,25 @@ padding: 10px;
     margin: 20px 0;
 }
 .news{
-    width: 100%;
+    width: 90%;
     /* margin: auto; */
     margin-left: 10px;
 }
-.offer img{
+.offer {
     /* width: 470px; */
     /* margin-left: 55px; */
+    width:100% ;
 }
 .tag{
     /* width: 315px;
     height: 120px; */
-    /* width: 50%; */
+    width: 55%;
     transform: rotate(-19.628deg);
     flex-shrink: 0;
     border-radius: 16px;
     background: #FF5400;
     text-align: center;
-    margin-right: 120px;
+    margin-left: 200px;
     margin-top: 225px; 
     /* margin-bottom: 10px; */
     /* margin-left: 355px;
@@ -656,7 +718,7 @@ padding: 10px;
 .service{
     flex-direction: column;
     margin: 0;
-    width: 100%;
+    width: 90%;
     gap: 20px;
 }
 .plans{
@@ -665,6 +727,8 @@ padding: 10px;
 }
 .customer >img{
   width: 100%;
+  padding: 10px 20px;
+ 
   
 }
 footer{
@@ -675,6 +739,6 @@ footer p{
     width: 100%;
 }
 footer hr{
-    width: 30px;
+    width: 330px;
 }
 }
