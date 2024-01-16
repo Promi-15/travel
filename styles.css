@@ -362,6 +362,7 @@ line-height: 26px; /* 162.5% */
     padding: 20px;
     /* height: 450px; */
     display: block;
+    text-align: center;
 
 }
 .news h2{
@@ -377,13 +378,13 @@ font-size: 1rem;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
 padding-bottom: 10px;
-padding-left: 20px;
+margin: auto;
 }
 hr{
-width: 393px;
+width: 398px;
 height: 1px;
 background: rgba(19, 19, 24, 0.10);
-margin-left: 18px;
+margin-left: 108px;
 }
 .news input{
  width: 393px;
@@ -394,6 +395,7 @@ background: rgba(19, 19, 24, 0.05);
 border: none;
 padding-left: 15px;
 margin-left: 15px;
+
 }
 .bbtn{
     width: 410px;
@@ -530,6 +532,7 @@ line-height: 24px;
 .icon h3{
     font-size: 12px;
 }
+
 
 @media screen and (max-width:600px) {
     /* header{
