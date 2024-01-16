@@ -2,8 +2,9 @@
     font-family: 'Mulish', sans-serif;
 }
 .nav-list input{
-    display:none;
+     display:none;
 }
+
 .checkbtn{
     display: none;
     font-size: 30px;
@@ -12,9 +13,9 @@
     line-height: 80px;
     margin-right: 40px;
 }
-#check{
+/* #check{
     display: none;
-}
+} */
 nav{
    margin-left: 40px;
    margin-right: 40px;
@@ -495,7 +496,7 @@ margin-left: 15px;
     background-size: cover;
 }
 .tag{
-    width: 315px;
+width: 315px;
 height: 120px;
 transform: rotate(-19.628deg);
 flex-shrink: 0;
@@ -630,9 +631,12 @@ line-height: 24px;
     .checkbtn{
         display: block !important;
     }
-    #check:checked ~ul{
-        left: 0;
+    #check:checked~ul{
+     left: 0;
     }
+    /* .nav-list i:hover>ul li{
+        display: block;
+    } */
     .nav-list ul li{
         line-height: 30px;
         clear: both;
